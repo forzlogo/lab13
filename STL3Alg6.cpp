@@ -159,11 +159,6 @@ int main() {
         return 1;
     }
 
-    if (v.empty() || v.size() % 2 != 0) {
-        std::cout << "Ошибка" << std::endl;
-        return 1;
-    }
-
     std::cout << "\nВвод данных для списка:\n";
     std::cout << "1 - с клавиатуры\n";
     std::cout << "2 - случайными числами\n";
@@ -186,11 +181,6 @@ int main() {
         break;
     }
     default:
-        std::cout << "Ошибка" << std::endl;
-        return 1;
-    }
-
-    if (l.empty()) {
         std::cout << "Ошибка" << std::endl;
         return 1;
     }
