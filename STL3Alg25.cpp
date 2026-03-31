@@ -38,12 +38,6 @@ void inputRandom(std::vector<int>& v) {
         int x = std::rand() % 201 - 100;
         v.push_back(x);
     }
-
-    std::cout << "Сгенерированные числа: ";
-    for (int x : v) {
-        std::cout << x << " ";
-    }
-    std::cout << std::endl;
 }
 
 void inputFromFile(std::vector<int>& v, const std::string& filename) {
